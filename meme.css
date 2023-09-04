@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+ 
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(25, 25, 26, 0.877);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.canvasdiv{
+  position: inherit;
+  width: 100%;
+}
+
+h1{
+  position:absolute;
+  color: Black;
+  font-weight: bold;
+  top:5%;
+  margin: 0 auto;
+  Text-shadow: 1px 1px 1px grey;
+}
+
+
+label.topText, .bottomText {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
+button#generateMemeButton.btn.btn-primary {
+  height: 28px;
+  width: 136px;
+  color: black;
+  letter-spacing: .5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+   background: linear-gradient(
+    112.1deg,
+    rgb(231, 235, 216) 11.4%,
+    rgb(118, 119, 122) 70.2%
+  );
+   border: none;
+}
+
+
+
+button#generateMemeButton.btn-primary:hover{
+  color: white; 
+  background: black;
+}
+
+
+input[type="file"] {
+display: none;
+margin-bottom: 500px;
+}
+
+
+label[for="img"]{
+  display: block;
+  margin-top: 8px;
+  width: 130px !important;
+  height: 28px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  background: linear-gradient(
+    112.1deg,
+    rgb(231, 235, 216) 11.4%,
+    rgb(118, 119, 122) 70.2%
+  );
+}
+
+
+label[for="img"]:hover {
+  color: white; 
+  background: black;
+}
+
+div.meme-generator {
+  position: relative;
+  margin-left: 400px;
+  bottom: 150px;
+  height: 75px;
+}
+
+.meme-generator label {
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+.meme-generator input {
+  width: 300px;
+  height: 25px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}
+
+canvas {
+  position: relative;
+  margin-left: 60px;
+  right: 100px;
+  height: 500px;
+  width: 30%;
+}
+
+
+.Memesteps {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  left: 165px;
+  margin-bottom: 175px;
+  margin-right: 100px;
+}
+
